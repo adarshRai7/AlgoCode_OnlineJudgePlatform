@@ -1,6 +1,6 @@
-# AlgoCode — Online Judge (Monorepo)
+# AlgoCode — Online Judge Platform
 
-A multi-service online judge prototype composed of separate Node/TypeScript microservices:
+A online Code judge prototype composed of separate Node/TypeScript microservices:
 - Problem admin service: manage problems and code stubs.
 - Submission service: accept user submissions, persist them and push jobs to queues.
 - Evaluator service: picks jobs from Redis/BullMQ, runs code inside Docker containers and produces results.
