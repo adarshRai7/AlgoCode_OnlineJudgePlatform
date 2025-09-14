@@ -11,12 +11,6 @@ Contents
 - [Services and key files](#services-and-key-files)
 - [Architecture & submission flow](#architecture--submission-flow)
 - [Run locally — prerequisites & env](#run-locally---prerequisites--env)
-- [How to run each service](#how-to-run-each-service)
-- [Important implementation notes](#important-implementation-notes)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## Services and key files
