@@ -57,6 +57,9 @@ Contents
 
 ## Architecture & submission flow
 
+![algoCode](https://github.com/user-attachments/assets/d4f93da1-0205-489f-b841-cbd968d77fcb)
+
+
 High level flow:
 1. Client posts a submission to Submission Service API. See route: [AlgoCode-Submission-Service/src/routes/api/v1/submissionRoutes.js](AlgoCode-Submission-Service/src/routes/api/v1/submissionRoutes.js).
 2. Submission service (`SubmissionService`) augments the user code with problem code stubs fetched from Problem Admin API. See [`SubmissionService`](AlgoCode-Submission-Service/src/services/submissionService.js) and [AlgoCode-Submission-Service/src/apis/problemAdminApi.js](AlgoCode-Submission-Service/src/apis/problemAdminApi.js).
